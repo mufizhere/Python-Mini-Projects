@@ -6,7 +6,6 @@ import string
 passwords = {}
 
 
-# Load Passwords From File
 def load_file():
     try:
         with open("passwords.txt", "r") as file:
